@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Роут 1</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { display: flex; align-items: center; justify-content: center; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:#f7f7f8; }
+    .btn { padding: 14px 22px; font-size: 16px; border-radius: 10px; border: 1px solid #d0d7de; background: #ffffff; cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    .btn:hover { background:#f3f4f6; }
+  </style>
+</head>
+<body>
+  <button id="to-route-2" class="btn">To Globalert</button>
+  <button id="to-route-1" class="btn">To YouTube</button>
+  <a href="globalert://emergency?id=55555&lon=82.9346&lat=55.0417">To Globalert</a>
+  <a href="https://www.youtube.com/">To YouTube</a>
+  <!-- <button id="to-route-3" class="btn">Редирект по схеме</button> -->
+  <script src="./index.js"></script>
+</body>
+</html>
