@@ -1,5 +1,5 @@
-const emailVerifyDeepLink = 'linkpay://app/email-verify?code=998491'
-const oauth2DeepLink = 'linkway://app/login?cookie=99999999'
+const emailVerifyDeepLink = 'linkpay://linkpay.io/email-verify?code=998491'
+const oauth2DeepLink = 'linkpay://linkpay.io/login?cookie=99999999'
 
 const fallbackUrl = 'https://linkpay.io/'
 
